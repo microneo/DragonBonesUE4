@@ -1,0 +1,38 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "DragonBones Plugin",
+	"Description" : "A plugin to load and render DragonBones animations in Unreal Engine",
+	"Category" : "2D",
+	"CreatedBy" : "Micron_eo",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+  "Modules": [
+    {
+      "Name": "DragonBonesPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DragonBonesEditorPlugin",
+      "Type": "Editor"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "RuntimeMeshComponent",
+      "Enabled":  true
+    }
+  ]
+}
